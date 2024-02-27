@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Noto Sans JP';
+}
+body .allpage {
+    display: block;
+    margin: auto;
+    width: 1520px;
+}
+a,
+a:link {
+    text-decoration: none;
+    color: #fff;
+}
+a:visited {
+    color: #888;
+}
+a:hover {
+    color: #09f;
+}
+header {
+    background-color: rgba(30,30,30,0.9);
+    display: flex;
+    position: absolute;
+    width: 1520px;
+}
+header h1 {
+    padding: 20px 0 0 150px;
+}
+header nav {
+    margin: 20px 100px 20px auto;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+header nav ul li a,
+header nav ul li a:link,
+header nav ul li a:visited {
+    display: block;
+    padding: 10px 15px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Noto Serif', serif;
+}
+footer {
+    background-color: #222;
+    padding: 30px;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+}
+main .visual {
+    background: url(../../common/images/main-visual.jpg) no-repeat center top;
+    background-size: contain;
+    width: 1520px;
+    height: 950px;
+}
+main .visual h2 {
+    padding: 430px 0 0 170px;
+    color: #fff;
+    font-size: 46px;
+    font-weight: 400;
+    font-family: 'Noto Serif', serif;
+}
+main .visual p {
+    padding: 100px 0 0 0;
+    position: fixed;
+    right: 0;
+}
+main .visual p a {
+    padding: 10px 20px;
+    background-color: #000;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight:700;
+}
+main .inner .section1 {
+    padding: 60px;
+}
+main .inner .section1 h1 {
+    position: absolute;
+}
+main .inner .section1 div {
+    display: flex;
+    padding: 60px;
+}
+main .inner .section1 div p img {
+    padding: 30px;
+}
+main .inner .section1 div .text {
+    padding: 120px 30px;
+}
+main .inner .section2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px 150px;
+}
+main .inner .section2 div {
+    width: 360px;
+    box-shadow: 0 0 8px #ccc;
+}
+main .inner .section2 div p img {
+    width: 360px;
+    height: auto;
+}
+main .inner .section2 div h2 {
+    font-family: 'Noto Serif', serif;
+    padding: 30px;
+}
+main .inner .section2 .text {
+    padding: 0 30px 30px;
+}
+
